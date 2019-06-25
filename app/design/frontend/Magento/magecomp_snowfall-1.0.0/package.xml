@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magecomp_Snowfall</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>MageComp's Snow Fall extensions help you add Snow Fall effect to your Magento Store. You can get your store ready for this Holiday season or any festival with it. You can customize the snowflakes icon to any other as per the festival with this easy to use Snow Fall Extension.</summary>
+    <description>MageComp's Snow Fall extensions help you add Snow Fall effect to your Magento Store. You can get your store ready for this Holiday season or any festival with it. You can customize the snowflakes icon to any other as per the festival with this easy to use Snow Fall Extension.</description>
+    <notes>Stable Version</notes>
+    <authors><author><name>MageComp</name><user>Sales</user><email>support@magecomp.com</email></author></authors>
+    <date>2015-07-25</date>
+    <time>09:03:37</time>
+    <contents><target name="magelocal"><dir><dir name="Magecomp"><dir name="Snowfall"><dir name="Block"><file name="Init.php" hash="727954205c41abd8e3cf197d2c23aefd"/></dir><dir name="Helper"><file name="Data.php" hash="42b116682d9f8628363edda974a8837e"/></dir><dir name="etc"><file name="config.xml" hash="86a137b6ca44aae254c399650ff2a7e6"/><file name="system.xml" hash="912aedd29c70c9af6b61e18b0c7153b7"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Magecomp_Snowfall.xml" hash="287b36b191323f46c6b3dd11d6a438f0"/></dir></dir></target><target name="mage"><dir name="."><file name="MAGECOMP-LICENSE.txt" hash="b5d08a9c4f5a80ad35b820ebbe89047b"/></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="snowfall.xml" hash="c2b14c16a819fad84affd30fe212f581"/></dir><dir name="template"><dir name="snowfall"><file name="init.phtml" hash="404d2e7f20f48a0bcb62d73bac29f57f"/></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="layout"><file name="snowfall.xml" hash="c2b14c16a819fad84affd30fe212f581"/></dir><dir name="template"><dir name="snowfall"><file name="init.phtml" hash="404d2e7f20f48a0bcb62d73bac29f57f"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="js"><file name="snowfall.js" hash="cc5e657c2a929a45123593c338022123"/></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="js"><file name="snowfall.js" hash="cc5e657c2a929a45123593c338022123"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

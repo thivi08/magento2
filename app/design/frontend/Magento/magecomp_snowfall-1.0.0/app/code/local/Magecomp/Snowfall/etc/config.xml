@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento Snowfall extension
+ *
+ * @category   Magecomp
+ * @package    Magecomp_Snowfall
+ * @author     Magecomp Snowfall
+ */-->
+<config>
+	<modules>
+		<Magecomp_Snowfall>
+			<version>1.0.0</version>
+		</Magecomp_Snowfall>
+	</modules>
+	<global>
+		<helpers>
+			<snowfall>
+				<class>Magecomp_Snowfall_Helper</class>
+			</snowfall>
+		</helpers>
+		<blocks>
+			<snowfall>
+				<class>Magecomp_Snowfall_Block</class>
+			</snowfall>
+		</blocks>
+	</global>
+	<frontend>
+		<layout>
+			<updates>
+				<magecomp_snowfall>
+					<file>snowfall.xml</file>
+				</magecomp_snowfall>
+			</updates>
+		</layout>
+	</frontend>
+	<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <snowfall translate="title" module="snowfall">
+                                            <title>Snowfall</title>
+                                            <sort_order>50</sort_order>
+                                        </snowfall>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+	<default>
+		<snowfall>
+			<snowfall_group>
+				<snowfall_number>35</snowfall_number>
+				<snowfall_colors>#e6f2ff, #eee, silver</snowfall_colors>
+				<snowfall_text>&#x2744;</snowfall_text>
+				<snowfall_speed>2</snowfall_speed>
+				<snowfall_minsize>10</snowfall_minsize>
+				<snowfall_maxsize>50</snowfall_maxsize>
+			</snowfall_group>
+		</snowfall>
+	</default>
+</config>

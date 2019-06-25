@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<reference name="head">
+			<action method="addItem"><type>skin_js</type><name>js/snowfall.js</name></action>
+			<block type="snowfall/init" template="snowfall/init.phtml" name="snowfall.init" />
+		</reference>
+	</default>
+</layout>

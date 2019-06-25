@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento Snowfall extension
+ *
+ * @category   Magecomp
+ * @package    Magecomp_Snowfall
+ * @author     Magecomp Snowfall
+ */-->
+<config>
+	<modules>
+		<Magecomp_Snowfall>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Magecomp_Snowfall>
+	</modules>
+</config>
