@@ -118,21 +118,21 @@ class Add extends Action
 //        $data = $this->getRequest()->getPost();
 //        $var = $data['new_product'];
 
-        //$test  = document.getElementById('new_product').value;
+        $test  = document.getElementById('new_product').value;
 
         $model = $this->wishlistLabel;
         try {
             $model->load($mWishlistId);
             $model->setproductId($productId);
-            //$model->save();
+            $model->save();
             $var["wishlistId"] = $mWishlistId;
             $var["result"] = "success";
             $var["productId"] = $productId;
-            //$var["test"] = $test;
+            $var["test"] = $test;
             $this->messageManager->addSuccessMessage(__('The wishlist has renamed successfully.'));
             $this->messageManager->addSuccessMessage(__($var["wishlistId"]));
             $this->messageManager->addSuccessMessage(__($var["productId"]));
-            //$this->messageManager->addSuccessMessage(__($var["test"]));
+            $this->messageManager->addSuccessMessage(__($var["test"]));
         } catch (\Exception $e) {
             $this->messageManager->addErrorMessage(__('Please try again.'));
         }
